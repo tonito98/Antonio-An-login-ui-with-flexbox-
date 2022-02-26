@@ -1,0 +1,81 @@
+html,body{
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card   {
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: white;
+    background-color: rgba(0,0,0,0);
+    min-width: 30%;
+    min-height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+#form {
+  box-shadow: 1px 0px 3px 3px  #eeeeee;
+  border-radius: 30px;
+  width: 75%;
+}
+
+h4 {
+  font-family: sans-serif ;
+}
+
+ /* Style inputs */
+ input[type=text] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+  }
+
+  input[type=password] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+   
+  }
+  
+  /* Style the submit button */
+  button[type=submit] {
+    width: 50%;
+    background-color: #53a0df;
+    color: rgb(227, 230, 233);
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* Added a background color to the submit button on mouse-over */
+  button[type=submit]:hover {
+    background-color: #4197DC;
+  } 
